@@ -1,0 +1,11 @@
+{
+  "disable": true,
+  "extends": [
+    "config:base",
+    ":automergePatch",
+    ":automergeTypes",
+    ":automergeTesters",
+    ":automergeLinters",
+    ":rebaseStalePrs"
+  ]
+}
